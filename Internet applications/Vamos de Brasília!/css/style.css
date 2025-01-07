@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Bahnschrift SemiBold;
+	font-size: 10px;
+}
+
+nav{
+	text-align: center;
+	background-color: #000000;
+	line-height: 50px;
+	width: 100%;
+	position: fixed;
+	box-shadow: 5px 5px 25px #FFFFFF;
+}
+
+nav>ul>li{
+	display: inline;
+}
+
+nav a:link, nav a:visited{
+	padding: 22px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav a:hover, nav a:active{
+	background-color: #FABB17;
+}
+
+#banner{
+	background-image: url('../images/banner.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+
+h1{
+	font-family: "Bahnschrift SemiBold";
+	font-size: 3rem;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+#about{
+	background-color: #000000;
+	height: 100vh;
+	font-size: 1.5rem;
+	color: #FFF;
+	padding: 50px;
+	letter-spacing: 0.1rem;
+	line-height: 2rem;
+	text-shadow: 1px 1px #000000;
+	text-align: justify;
+}
+
+#gallery{
+	background-color: #000000;
+	height: 100vh;
+	padding: 50px;
+}
+
+#gallery .img{
+	width: 250px;
+	height: 180px;
+	margin: -10px;
+	border: 0px #FFF solid;
+	border-radius: 10px;
+}
+
+#gallery .img:hover{
+	box-shadow: 10px 10px 25px #FFFFFF;
+	cursor: pointer;
+	background-color: #000000;
+}
+
+#maps{
+	padding-top: 500;
+	width: 100%;
+	height: 400px;
+	background-color: #000000;
+}
+
+#turismo{
+	background-color: #000000;
+	height: 100vh;
+	padding: 600	;
+}
+
+#contacts{
+	background-color: #FABB17;
+	padding: 50px;
+	color: #FFF;
+	height: 100vh;
+	font-size: 1.5rem;
+}
+
+#contacts label, #contacts button{
+	display: block;
+	margin-top: 10px;
+}
+
+#contacts input, #contacts textarea{
+	width: 400px;
+	padding: 10px;
+	font-size: 1.1rem;
+	border: 0;
+	border-radius: 10px;
+}
+
+#contacts button{
+	border: 0;
+	padding: 10px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+}
+
+#contacts button:hover{
+	background-color: #F2AFA0;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #0D0D0D;
+	padding: 10px;
+	color: #FFF;
+	text-align: center;
+}
